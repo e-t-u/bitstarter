@@ -24,11 +24,22 @@
 var fs = require('fs');
 var program = require('commander');
 var cheerio = require('cheerio');
+var restler = require('restler')
 var HTMLFILE_DEFAULT = "index.html";
 var CHECKSFILE_DEFAULT = "checks.json";
+var URL_DEFAULT = "https://github.com/e-t-u/bitstarter/blob/7f81cb5b938b6a228a89c7146e7098928118c60f/index.html"
 
 var assertFileExists = function(infile) {
     var instr = infile.toString();
+    if(!fs.existsSync(instr)) {
+		console.log("%s does not exist. Exiting.", instr);
+		process.exit(1); //http://nodejs.org/api/process.html#process_process_exit_code
+    }
+    return instr;
+};
+
+var assertUrlExists = function(url) {
+    var instr = url.toString();
     if(!fs.existsSync(instr)) {
 		console.log("%s does not exist. Exiting.", instr);
 		process.exit(1); //http://nodejs.org/api/process.html#process_process_exit_code
@@ -67,6 +78,7 @@ if(require.main == module) {
 			CHECKSFILE_DEFAULT)
         .option('-f, --file <html_file>', 'Path to index.html', 
 			clone(assertFileExists), HTMLFILE_DEFAULT)
+        .option('-u, --url <url>', 'Url to html document', clone(assertUrlExists, URL_DEFAULT))
         .parse(process.argv);
     var checkJson = checkHtmlFile(program.file, program.checks);
     var outJson = JSON.stringify(checkJson, null, 4);
