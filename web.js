@@ -4,8 +4,8 @@ var fs = require('fs');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-
-var txtbuf = fs.readFileSync('index.html');
+  var txtbuf = fs.readFileSync('index.html');
+});
 
 response.send(txtbug.toString());
 
