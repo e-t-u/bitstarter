@@ -79,7 +79,7 @@ if(require.main == module) {
 	    		console.log('Error retrieving URL');
 	    		process.exit(1);
 	    	} else {
-	    		console.log(result);
+	    		// console.log(result);
 	    		$ = cheerio.load(result);
     		    var checks = loadChecks(program.checks).sort();
 				var out = {};
