@@ -16,18 +16,21 @@
    id="svg1901"
    sodipodi:version="0.32"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Uusi asiakirja 1"
-   version="1.1">
+   sodipodi:docname="hanta.svg"
+   version="1.1"
+   inkscape:export-filename="/home/etu/git/hanta.privu.net/hanta.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.2613545"
-     inkscape:cx="186.58518"
-     inkscape:cy="39.258791"
+     inkscape:zoom="3.1980382"
+     inkscape:cx="135.61144"
+     inkscape:cy="36.182765"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      inkscape:window-width="1631"
@@ -39,9 +42,21 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     borderlayer="false" />
   <defs
      id="defs1903">
+    <linearGradient
+       id="linearGradient4437">
+      <stop
+         style="stop-color:#e8e5d1;stop-opacity:1;"
+         offset="0"
+         id="stop4439" />
+      <stop
+         style="stop-color:#f8f7e7;stop-opacity:1;"
+         offset="1"
+         id="stop4441" />
+    </linearGradient>
     <linearGradient
        id="linearGradient4274"
        osb:paint="gradient">
@@ -219,6 +234,15 @@
        x2="288.82587"
        y2="530.56207"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4437"
+       id="linearGradient4443"
+       x1="429.92337"
+       y1="432.10706"
+       x2="465.82907"
+       y2="419.91208"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata1906">
@@ -273,13 +297,13 @@
        inkscape:connector-curvature="0"
        id="path3057"
        d="m 485.84276,411.92547 c -23.23914,0.83126 -75.78349,3.06961 -90.19115,3.6908 -14.40766,0.62118 -52.93978,-0.93725 -49.64322,26.75728 3.29655,27.69454 56.71721,18.15224 89.249,15.79416 32.53179,-2.35807 67.46927,-4.93418 67.46927,-4.93418 z"
-       style="fill:#e8e5d1;fill-opacity:1;stroke:none;display:inline" />
+       style="fill:url(#linearGradient4443);fill-opacity:1;stroke:none;display:inline" />
     <path
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path3059"
        d="m 422.0614,459.64519 c 0,0 75.79136,-6.3279 80.55181,-6.362 1.97485,9.88352 -3.75742,17.67849 -3.75742,17.67849 -36.14212,2.148 -68.51561,5.90521 -104.64542,7.70561"
-       style="fill:url(#linearGradient3845);fill-opacity:1.0;stroke:#000000;stroke-width:0.10000000000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4270)" />
+       style="fill:url(#linearGradient3845);fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;filter:url(#filter4270)" />
     <path
        transform="translate(3.3508556,-2.8129592)"
        d="m 386.02456,443.35651 a 15.471275,12.009172 0 1 1 -30.94255,0 15.471275,12.009172 0 1 1 30.94255,0 z"
@@ -288,7 +312,7 @@
        sodipodi:cy="443.35651"
        sodipodi:cx="370.55328"
        id="path3061"
-       style="opacity:0.91836733000000004;fill:#00354b;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       style="opacity:0.91836733;fill:#00354b;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        sodipodi:type="arc" />
     <g
        id="text3989"
