@@ -51,6 +51,7 @@
 				font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 				background-color: #E8E5D1;
 				color: #251E1A;
+				font-size: 12px;
 			}
 			.navbar-inner {
 				background-color: #6D7067;
@@ -208,29 +209,30 @@
 
 			<div class="row-fluid subheading">
 				<div class="span12">
-					<p class="lead">Privacy in your pocket.</p>
+					<p class="lead">Privacy in your pocket.<br/>
+					(Work in progress, please comment: etu@privu.net)</p>
 				</div>
 			</div>
 
 			<div class="row-fluid pitch">
-				<div class="span5 offset1">
-					<div class="row-fluid">
-						<img
-							class="img-rounded"
-							style="background-color: transparent;"
-							height=300 width=480
-							src="http://hanta.privu.net.s3-website-us-east-1.amazonaws.com/hanta.svg"
-							alt="Häntä logo (USB stick)">
-					</div>
-					<div class="row-fluid">
-						<p class="pitchtext">
-							Häntä is a USB stick that allows you<br/>
-							to use Internet in full privacy.
-						</p>
-					</div>
+				<div class="span3 offset2">
+						<div class="row-fluid">
+							<img
+								class="img-rounded"
+								style="background-color: transparent;"
+								height=200 width=320
+								src="http://hanta.privu.net.s3-website-us-east-1.amazonaws.com/hanta.svg"
+								alt="Häntä logo (USB stick)">
+						</div>
+						<div class="row-fluid">
+							<p class="pitchtext">
+								Häntä is a USB stick that allows you<br/>
+								to use Internet in full privacy.
+							</p>
+						</div>
 				</div>
 
-				<div class="span5 actions">
+				<div class="span5 offset1 actions">
 					<div class="span8 offset2">
 						<div class="statistics">
 							<div class="span4">
@@ -271,7 +273,7 @@
 				<div class="span5 offset1 copy copy-left">
 					<p>
 						With Häntä USB stick you can boot almost any PC
-						to a secure Linux operating system called
+						to a secure Linux operating system variant called
 						<a href="https://tails.boum.org/">Tails</a>.
 					</p>
 					<p>
@@ -289,9 +291,8 @@
 						time.
 					</p>
 					<p>
-						You can still store several gigabytes of data to the 
-						USB stick. But not programs. Content of the USB 
-						stick is naturally encrypted.
+						All your own data is in preconfigured cloud storage,
+						not in stick or in local disk.
 					</p>
 				</div>
 				<div class="span5 bigicon-right">
@@ -318,7 +319,7 @@
 					<p>
 						In Häntä, there is internal firewall that 
 						guarantees that there is no other communication
-						except Tor communication. You can relax that
+						except Tor communication. You can bypass that
 						but it is not recommended.
 					</p>
 				</div>
@@ -331,7 +332,8 @@
 						with pre-configured unique identity.
 					</p>
 					<p>
-						It is hard to start using system: generate keys etc.
+						Usually, it is hard to start using system:
+						generate keys etc.
 						Häntä comes with precreated identity.
 					</p>
 					<p>
@@ -341,7 +343,7 @@
 					</p>
 					<p>
 						Häntä cloud also include 1 GB free storage in
-						the could. Guaranteed for one year.
+						the cloud. Guaranteed for one year.
 					</p>
 				</div>
 				<div class="span5 bigicon-right">
@@ -386,22 +388,19 @@
 								<div class="accordion-heading">
 									<a class="accordion-toggle" data-toggle="collapse"
 										data-parent="#accordion2" href="#collapseThree">
-										How the operating system can be read-only if
-										it is possible to write into the USB stick?
+										What if I lose the USB stick?
 									</a>
 								</div>
 							</div>
 							<div id="collapseThree" class="accordion-body collapse">
 								<div class="accordion-inner">
-									The Häntä operating system contains only USB driver
-									that does not allow writing first 1GB of the 
-									USB stick. There may be ways to circumvent
-									that but it certainly is not easy. The user data in the
-									disk is in a partition where executing programs
-									is not allowed. Note however that the USB stick
-									can be used as a normal USB stick in other computers
-									which means that they are able to write over the 
-									operating system.
+									You lose the data in the server. Unless you have
+									bought a pair of sticks to the same account. On
+									the positive side, the identity associated with
+									the stick is permanently lost. If you have not done
+									anything stupid like used your google account with
+									the stick, you can not be associated with
+									the stick any more.
 								</div>
 							</div>
 							<div class="accordion-group">
